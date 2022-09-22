@@ -6,6 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cc</title>
   <style>
+    *{
+      list-style: none;
+      margin:0;
+      padding:0;
+    }
+    .title li{
+      display: inline-block;
+      font-size:20px;
+      padding:10px;
+    }
+    .container{
+      width: 320px;
+      border:1px solid #ccc;
+      margin:50px auto 0;
+    }
+    .containImg{
+      width: 100%;
+      height: 120px;
+      position:relative;
+    }
+    .containImg img{
+      width: 100%;
+      height: 100%;
+    }
+    .containImg p{
+      position:absolute;
+      width: 100%;
+      bottom:0;
+      text-align:center;
+      color:white;
+    }
     .biaoti{
       padding-left:15px;
     }
@@ -18,6 +49,18 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <ul class="title">
+      <li>热搜</li>
+      <li>社会</li>
+      <li>文娱</li>
+      <li>生活</li>
+      <li>运动</li>
+    </ul>
+    <div class="containImg">
+      <img src="./10523T0F-2.jpg">
+      <p>甘宁全身多处骨折伴有严重感染</p>
+    </div>
     <ul class="biaoti">
       <li>美联储连续第三次加息75个基点</li>
       <li>刘新云普被孙力军运作调任公安部</li>
@@ -27,5 +70,6 @@
       <li>美国登月火箭再次检测到液氢泄漏</li>
       <li>俄罗斯股市暴跌</li>
     </ul>
+  </div>
 </body>
 </html>
